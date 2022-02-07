@@ -9,8 +9,8 @@ final class MyLibraryTests: XCTestCase {
             shouldReturnTemperatureWithAnEight: false
         )
 
-        let myLibrary = MyLibrary(weatherService: mockWeatherService)
-        let number = 8
+        let myLibrary = MyLibrary()
+        let number = 0
         let expectation = XCTestExpectation(description: "We asked about the number 8 and heard back 🎄")
         var isLuckyNumber: Bool?
 
